@@ -1,4 +1,7 @@
 # Clip Challenge
+El proyecto se ejecuta sobre el puerto 8010
+La url para probar los endpoint es:
+http://localhost:8010/api/v1/clip/swagger-ui.html
 
 ## Prerequisites
 - Spring Boot
