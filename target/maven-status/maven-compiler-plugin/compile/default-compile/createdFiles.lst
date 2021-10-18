@@ -1,0 +1,9 @@
+com\example\clip\ClipApplication.class
+com\example\clip\model\Payment.class
+com\example\clip\request\PaymentRequest.class
+com\example\clip\service\UsuarioService.class
+com\example\clip\response\PaymentResponse.class
+com\example\clip\repository\PaymentRepository.class
+com\example\clip\service\IUsuarioService.class
+com\example\clip\controller\TransactionController.class
+com\example\clip\response\PaymentUserReport.class
