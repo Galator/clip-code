@@ -25,16 +25,13 @@ public class UsuarioService implements IUsuarioService {
     private static final String PROCESSED_TRANSACTION= "PROCESSED";
 
     @Override
-    public PaymentResponse paymentSave(PaymentRequest paymentRequest) throws PersistenceException {
+    public void paymentSave(PaymentRequest paymentRequest) throws PersistenceException {
 
         Payment payment = new Payment(paymentRequest);
         payment.setStatus(NEW_TRANSACTION);
 
         paymentRepository.save(payment);
         log.info("Payload Created Successfully");
-        //return ResponseEntity.status(HttpStatus.OK).build();
-
-        return null;
     }
 
     @Override

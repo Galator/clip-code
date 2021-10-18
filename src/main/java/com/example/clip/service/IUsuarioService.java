@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface IUsuarioService {
 
-    PaymentResponse paymentSave (PaymentRequest paymentRequest) throws PersistenceException;
+    void paymentSave (PaymentRequest paymentRequest) throws PersistenceException;
 
     List<PaymentResponse> getUserAll () throws PersistenceException;
 
